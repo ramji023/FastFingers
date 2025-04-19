@@ -1,0 +1,92 @@
+body {
+    background-color: #323437;
+    margin: 20px 120px;
+}
+
+#first {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    font-family: Lexend Deca, sans-serif;
+    letter-spacing: 2px;
+    line-height: 1.25em;
+    color: #d1d0c5;
+}
+
+#firstBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+
+#parentBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#box {
+    background-color: #171d24;
+    color: whitesmoke;
+    padding: 12px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 500px;
+}
+
+
+.boxDiv {
+    font-size: 16px;
+    font-family: "gilroy", "gilroy Fallback";
+    color: #b0b9c3;
+    cursor: pointer;
+}
+
+.boxDiv:hover {
+    color: rgb(216, 85, 85);
+}
+
+.timer {
+    font-size: 50px;
+    color: rgb(216, 85, 85);
+}
+
+p {
+    position: relative;
+    letter-spacing: 2px;
+}
+
+#cursor {
+    color: yellow;
+    position: absolute;
+    width: 3px;
+    height: 2rem;
+    background-color: yellow;
+    animation: blink 0.8s infinite;
+    margin-right: 4px;
+}
+
+.spanElement {
+    font-family: "Roboto Mono", "Roboto Mono", "Vazirmatn", monospace;
+    font-size: 2rem;
+    color: #5f5f5c;
+    line-height: 1.25em;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
